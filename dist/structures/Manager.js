@@ -84,7 +84,7 @@ class Manager extends Events.EventEmitter {
             delete options.position_update_interval;
         }
 
-        this.options = Object.assign({ plugins: [], nodes: [{ identifier: "default", host: "localhost" }], shards: 1, autoPlay: true, clientName: "erela.js", defaultSearchPlatform: "youtube" }, options);
+        this.options = Object.assign({ plugins: [], nodes: [{ identifier: "default", host: "localhost" }], shards: 1, autoPlay: true, clientName: "I Love Pussy", defaultSearchPlatform: "youtube" }, options);
         if (this.options.plugins) {
             for (const [index, plugin] of this.options.plugins.entries()) {
                 if (!this.forceLoadPlugin && !(plugin instanceof Utils.Plugin)) throw new RangeError(`Plugin at index ${index} does not extend Plugin.`);
